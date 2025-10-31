@@ -9,13 +9,13 @@ uci set firewall.@zone[1].input='ACCEPT'
 # 自定义参数
 
 # 自定义路由器后台管理地址
-IP_VALUE=10.0.5.1
+IP_VALUE=10.0.1.1
 # 配置PPPOE
 enable_pppoe=
 pppoe_account=
 pppoe_password=
 # 自定义背景图链接
-THEME_BG_URL=
+THEME_BG_URL=https://free.picui.cn/free/2025/10/30/6902f8d9a084b.png
 
 # 设置主机名映射，解决安卓原生 TV 无法联网的问题
 uci add dhcp domain
