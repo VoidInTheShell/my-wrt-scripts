@@ -17,8 +17,6 @@ git clone https://github.com/SunBK201/UA3F.git package/UA3F
 git clone https://github.com/Zesuy/UA-Mask.git package/UA-Mask
 git clone https://github.com/sirpdboy/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/qianlyun123/luci-app-modem.git package/luci-app-modem
-#git clone https://github.com/Kiougar/luci-wrtbwmon.git package/wrtbwmon-1 && mv package/wrtbwmon-1/luci-wrtbwmon package/wrtbwmon && rm -rf package/wrtbwmon-1
-#git clone https://github.com/brvphoenix/luci-app-wrtbwmon.git package/luci-app-wrtbwmon-1 && mv package/luci-app-wrtbwmon-1 package/luci-app-wrtbwmon && rm -rf package/luci-app-wrtbwmon-1
 echo "python3-disutils依赖问题直接注释"
 echo "BandIX:luci-app-bandix+bandix===无法与硬件加速共存"
 echo "Onliner:luci-app-onliner===实时数据不正确"
