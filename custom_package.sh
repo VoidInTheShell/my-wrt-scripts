@@ -25,5 +25,6 @@ echo "netspeedtest---poweroffdevice---taskplan---advancedplus---watchdog===建�
 echo "5G模组驱动USB和MHI按需选择"
 echo "quectel-CM-5G依赖如果有问题则改为quectel-CM-5G-M或quectel-cm或注释"
 echo "磁盘工具: resize2fs losetup fdisk partd cfdisk cgdisk sgdisk nvme-cli"
+echo "文件工具: unzip pzstd"
 ./scripts/feeds update -a
 ./scripts/feeds install -a -f
