@@ -24,5 +24,6 @@ echo "qosmate:luci-app-qosmate+base-system---qosmate"
 echo "netspeedtest---poweroffdevice---taskplan---advancedplus---watchdog===建议默认选中"
 echo "5G模组驱动USB和MHI按需选择"
 echo "quectel-CM-5G依赖如果有问题则改为quectel-CM-5G-M或quectel-cm或注释"
+echo "磁盘工具: resize2fs losetup fdisk partd cfdisk cgdisk sgdisk nvme-cli"
 ./scripts/feeds update -a
 ./scripts/feeds install -a -f
